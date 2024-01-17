@@ -1,0 +1,24 @@
+{
+  "name": "gmailaireplier",
+  "version": "0.0.1",
+  "description": "An AI to draft replies in Google Mail to all the relevant incoming emails, fully configurable in a Google Sheet ",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "gmail",
+    "gmailai",
+    "gmailaireplier",
+    "emails",
+    "reply"
+  ],
+  "author": "Fabrice Bernhard <fabriceb@theodo.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.78",
+    "typescript": "^5.3.3",
+    "@google/clasp": "^2.4.2"
+  }
+}
